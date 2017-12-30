@@ -1,3 +1,5 @@
+console.log('test')
+
 // var modal = document.querySelector(".modal");
 
     function toggleModal () {
@@ -17,7 +19,7 @@
     }
 
     $('#textHover').mouseenter(pls)
-    $('#textHover').mouseleave(unPls) 
+    $('#textHover').mouseleave(unPls)
     // function windowOnClick(event) {
     //     if (event.target === modal) {
     //         toggleModal();
