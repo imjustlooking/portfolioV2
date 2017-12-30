@@ -61,8 +61,20 @@ nav #email {
   transition: transform 0.5s ease;
 }
 
+.linkicon1 {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.linkicon1:hover {
+  transform: scale(0.9);
+  transition: transform 0.5s ease;
+}
 #myProjects {
-  text-align: right;
+  /*text-align: right;*/
+  color: white;
+  font-family: 'Merriweather', serif;
 }
 #profile {
   float: right;
@@ -86,6 +98,8 @@ nav #email {
 	-webkit-transform-style: preserve-3d;
 	-webkit-backface-visibility: hidden;
 	border: 1px solid black;
+  color: #303744;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 .front {
@@ -184,6 +198,9 @@ height: 100%;
 }
 
 @media (max-width: 767px) {
+  .nav a {
+    margin-right: 0;
+  }
   .banner h1, .banner h2, .banner h3, .link {
     margin-left: 10vw;
     position: relative;
