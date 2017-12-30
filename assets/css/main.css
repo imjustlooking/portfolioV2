@@ -1,0 +1,214 @@
+body {
+    background-color: #303744;
+}
+nav {
+  margin-top: 10px;
+  margin-left: 20vw;
+
+}
+nav a {
+  font-family: 'Archivo Narrow', sans-serif;
+  color: #EEEEEE;
+  text-decoration: none;
+  margin-right: 5vw;
+}
+nav a:hover {
+  color: #666666;
+  transition: color 0.5s ease;
+  cursor: pointer;
+}
+nav #email {
+  color: #666666;
+  cursor: default;
+}
+.banner {
+  height: 100vh;
+  width: 100vw;
+}
+
+.banner h1, .banner h2, .banner h3, .link {
+  color: white;
+  position: relative;
+  top: 15%;
+  margin-left: 20vw;
+}
+
+.banner h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 80px;
+}
+
+.banner h2 {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 50px;
+}
+
+.banner h2 b:hover {
+  text-shadow: 4px 2px #EC212C;
+}
+.banner h3 {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.linkicon {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.linkicon:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s ease;
+}
+
+#myProjects {
+  text-align: right;
+}
+#profile {
+  float: right;
+}
+
+.card-text {
+  height: 120px;
+}
+
+.info-card {
+    float: left;
+    margin-top: 5px;
+	/*margin: 10px;*/
+	-webkit-perspective: 600px;
+}
+
+.front, .back {
+	background: #FFF;
+	border-radius: 10px;
+	transition: -webkit-transform 1s;
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	border: 1px solid black;
+}
+
+.front {
+  padding: 20px;
+  padding-top: 0px;
+	overflow: hidden;
+	width: 250px;
+	height: 330px;
+	position: absolute;
+	z-index: 1;
+}
+
+.back {
+	padding: 20px;
+	padding-top: 0px;
+	width: 250px;
+	height: 330px;
+	-webkit-transform: rotateY(-180deg);
+}
+
+.info-card:hover .back {
+	-webkit-transform: rotateY(0deg);
+}
+
+.info-card:hover .front {
+	-webkit-transform: rotateY(180deg);
+}
+
+.card-image {
+width: 100%;
+height: 100%;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleX(1.1) scaleY(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+    /*position: absolute;
+    top: 50%;
+    left: 50%;*/
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /*width: 45rem;*/
+    height: 100vh;
+    width: 100vw;
+    /*transform: translate(-50%, -50%);*/
+    background-color: black;
+    padding: 1rem 1.5rem;
+    /*border-radius: 0.5rem;*/
+}
+.modal-content h1, .modal-content p {
+  color: white;
+  margin-left: 20vw;
+}
+.modal-content h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 60px;
+}
+.modal-content p {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 20px;
+}
+.close-button {
+    float: left;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+.close-button:hover {
+    background-color: darkgray;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleX(1.0) scaleY(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    z-index: 1;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .banner h1, .banner h2, .banner h3, .link {
+    margin-left: 10vw;
+    position: relative;
+    top: 0%;
+  }
+  .banner h1 {
+    font-size: 70px;
+  }
+  .banner h2 {
+    font-size: 30px;
+  }
+  .linkicon {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+  .modal-content h1, .modal-content p {
+    color: white;
+    margin-left: 0;
+  }
+  .modal-content h1 {
+    font-size: 40px;
+  }
+
+  .modal-content p {
+    font-size: 20px;
+  }
+}
