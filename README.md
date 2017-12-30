@@ -24,7 +24,7 @@ You will need to change the settings under Host Records.
 - Type 'CNAME record' with Host 'www' and Value 'username.github.io'.
 - Remember TTL is set to Automatic. It means Time To Live, though I'm not sure how it really affects the uptime.
 
-![Namecheap settings](/pics/namecheap_settings.png "Github pages settings")
+![Namecheap settings](/assets/pics/namecheap_settings.png "Github pages settings")
 
 Github settings
 ======
@@ -34,7 +34,7 @@ Navigate to your github repository >> Settings >> Scroll down to Github Pages >>
 
 I also assume you have already hosted the project on github pages. If you have not, adjust source to master branch >> Save.
 
-![Github pages settings](/pics/github_settings.png "Github pages settings")
+![Github pages settings](/assets/pics/github_settings.png "Github pages settings")
 
 
 Tip
