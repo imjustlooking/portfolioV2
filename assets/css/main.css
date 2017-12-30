@@ -43,13 +43,17 @@ nav #email {
   font-size: 50px;
 }
 
-.banner h2 b:hover {
+.banner h2 #sg{
   text-shadow: 4px 2px #EC212C;
 }
 .banner h3 {
   font-family: 'Archivo Narrow', sans-serif;
 }
 
+.capitalize {
+  /*text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;*/
+  color: yellow;
+}
 .linkicon {
   width: 50px;
   height: 50px;

@@ -14,6 +14,12 @@
     $('#textHover').text(originalText)
   }
 
+  // function full () {
+  //   $('.fullText').toggleClass('capitalize')
+  // }
+  // $('.fullText').mouseenter(full)
+  // $('.fullText').mouseleave(full)
+
   $('#textHover').mouseenter(pls)
   $('#textHover').mouseleave(unPls)
 
