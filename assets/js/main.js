@@ -14,6 +14,12 @@
     $('#textHover').text(originalText)
   }
 
+  function sound () {
+    $('audio').toggleClass('show-audio')
+  }
+
+  // $('.textSound').click(sound())
+  $('.navpic').click(sound)
   // function full () {
   //   $('.fullText').toggleClass('capitalize')
   // }

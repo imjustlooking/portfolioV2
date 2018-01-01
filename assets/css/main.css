@@ -4,13 +4,22 @@ body {
 nav {
   margin-top: 10px;
   margin-left: 20vw;
-
+}
+.show-audio {
+  visibility: hidden;
+}
+.textSound {
+  cursor: help;
+}
+.navpic {
+  height: 32px;
 }
 nav a {
   font-family: 'Archivo Narrow', sans-serif;
   color: #EEEEEE;
   text-decoration: none;
   margin-right: 5vw;
+  vertical-align: top;
 }
 nav a:hover {
   color: #666666;
