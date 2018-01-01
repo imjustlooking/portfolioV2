@@ -217,7 +217,7 @@ height: 100%;
   .banner h1, .banner h2, .banner h3, .link {
     margin-left: 10vw;
     position: relative;
-    top: 0%;
+    top: -8%;
   }
   .banner h1 {
     font-size: 70px;
