@@ -16,7 +16,7 @@
 
   const originalEmail = $('#email').text()
   function sound () {
-    $('#email').text() === originalEmail ? $('#email').text('Careful w the volume!') : $('#email').text(originalEmail)
+    $('#email').text() === originalEmail ? $('#email').text('MindYourVolumeSorry') : $('#email').text(originalEmail)
     $('audio').toggleClass('show-audio')
   }
 
