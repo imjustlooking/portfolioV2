@@ -13,6 +13,7 @@ nav {
 }
 .navpic {
   height: 32px;
+  cursor: pointer;
 }
 nav a {
   font-family: 'Archivo Narrow', sans-serif;
