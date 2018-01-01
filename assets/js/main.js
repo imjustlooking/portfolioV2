@@ -14,12 +14,23 @@
     $('#textHover').text(originalText)
   }
 
+  const originalEmail = $('#email').text()
   function sound () {
+    $('#email').text() === originalEmail ? $('#email').text('Careful w the volume!') : $('#email').text(originalEmail)
     $('audio').toggleClass('show-audio')
   }
 
+  // function soundHover () {
+  //   $('#email').text('Careful w the volume!')
+  // }
+  // function soundUnHover () {
+  //   $('#email').text(originalEmail)
+  // }
   // $('.textSound').click(sound())
   $('.navpic').click(sound)
+  // $('.navpic').mouseenter(soundHover)
+  // $('.navpic').mouseleave(soundUnHover)
+
   // function full () {
   //   $('.fullText').toggleClass('capitalize')
   // }
