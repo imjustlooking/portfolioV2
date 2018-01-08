@@ -20,22 +20,7 @@
     $('audio').toggleClass('show-audio')
   }
 
-  // function soundHover () {
-  //   $('#email').text('Careful w the volume!')
-  // }
-  // function soundUnHover () {
-  //   $('#email').text(originalEmail)
-  // }
-  // $('.textSound').click(sound())
   $('.navpic').click(sound)
-  // $('.navpic').mouseenter(soundHover)
-  // $('.navpic').mouseleave(soundUnHover)
-
-  // function full () {
-  //   $('.fullText').toggleClass('capitalize')
-  // }
-  // $('.fullText').mouseenter(full)
-  // $('.fullText').mouseleave(full)
 
   $('#textHover').mouseenter(pls)
   $('#textHover').mouseleave(unPls)
